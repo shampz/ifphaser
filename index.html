@@ -7,41 +7,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>IF|Phaser</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
-  <script type="text/javascript" src="phaser.min.js"></script>
-  <script type="text/javascript" src="js/boot.js"></script>
-  <script type="text/javascript" src="js/load.js"></script>
-  <script type="text/javascript" src="js/menu.js"></script>
-  <script type="text/javascript" src="js/play.js"></script>
-  <script type="text/javascript" src="js/game.js"></script>
 </head>
 
 <body class="">
   <header class="header">
+    
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="" href="#">
+            <img src="imgs/if.png" class="img-responsive if-img" alt="Responsive image">
+          </a>
+        </div>
 
-    <nav class="navbar navbar-static-top">
-      <div class="container">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <img src="imgs/if.png" class="img-responsive if-img" alt="Responsive image">
-          <!--<a class="navbar-brand" href="#">IF PHASER</a>-->
           <ul class="nav navbar-nav">
-            <li class="active">
-              <a href="#">HOME 
-              <span class="sr-only">(current)</span>
-              </a>
+            <li><a class="nav-a" href="#">HOME</a>
             </li>
-            <li>
-              <a href="#">ABOUT</a>
+            <li><a class="nav-a" href="#">ABOUT</a>
             </li>
           </ul>
         </div>
+
       </div>
     </nav>
 
+    
     <div class="container">
       <h1 class="text-uppercase text-center intro-text">
+        Descrição 
         Nullam quis risus eget 
         urna mollis ornare vel eu leo.
       </h1>
@@ -50,11 +55,12 @@
       <img src="imgs/phaser_full.png" class="img-responsiveg" alt="Responsive image">
 
       <div class="btns">
-        <h1 class="text-uppercase text-center">IF PHASER</h1>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
-        <button type="button" class="btn btn-danger btn-lg">Large button</button>
+        <h1 class="text-uppercase text-center">Send the game!</h1>
+        <button type="button" class="btn btn-primary btn-lg">Formato A</button>
+        <button type="button" class="btn btn-danger btn-lg">Formato B</button>
       </div>
-
+      
+      <!--Colocar esse campo em novo fundo -->
       <blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer>Someone famous in <cite title="Source Title">Source Title</cite>
@@ -82,9 +88,9 @@
     </div>
 
   </header>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
